@@ -1,0 +1,5 @@
+# ignore vender as it can be recreated from composer
+vertically/vendor/*
+
+    
+
