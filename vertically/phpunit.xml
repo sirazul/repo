@@ -1,0 +1,11 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="Vertically">
+      <file>tests/DivideBy3and5RuleTest.php</file>
+      <file>tests/ClassifyTwoIntegersTest.php</file>
+      <file>tests/DivideByRuleTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
+
+
