@@ -24,8 +24,8 @@ final class ClassifyTwoIntegersTest extends TestCase
 
    
         // run twice for either case
-        $status = (strpos($classifier->__toString(), 'fizz')  !== false) ? true : false;
-        $status = (strpos($classifier->__toString(), 'buzz')  !== false) ? true : false;
+        $status = (strpos($classifier->__toString(), 'Rule 3 Hit')  !== false) ? true : false;
+        $status = (strpos($classifier->__toString(), 'Rule 5 Hit')  !== false) ? true : false;
 
         $this->assertTrue($status);
     }
